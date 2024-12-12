@@ -1,0 +1,85 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ .header .navbar-toggler {
+    outline: none;
+    border: none;
+ }
+ 
+ .header .navbar-toggler:focus{
+   border: none;
+   box-shadow: unset;
+   outline: none;
+ }
+
+
+ form input, textarea, select,
+ .btn:focus{
+    box-shadow: none!important;
+  
+ }
+
+
+
+
+ .card{
+    border-radius: none!important;
+    border: none;
+  
+ }
+
+ .card-header{
+    border-radius: none;
+    border: 0;
+ }
+ .card-footer{
+    position: relative;
+    border: none;
+    padding: 0;
+ }
+ .custom-btn{
+    position: absolute;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    padding: 0.5rem 0;
+ }
+
+
+ .question-list{
+   border: 1px solid #ddd;
+   padding:15px;
+   margin: 10px;
+ }
+ .question-list h4{
+   margin: 0;
+   padding: 0;
+ }
+
+ .question-list a,
+ .question-title
+ {
+   font-size: 18px;
+   text-decoration: none;
+   color: rgb(7, 81, 124)!important;
+ }
+
+
+ .answer-wrapper {
+   border-bottom: 1px solid #ddd;
+   margin-bottom: 10px;
+   padding:5px;
+ }
+
+ .my-question{
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .my-question .delete-btn{
+   font-size: 13px;
+   color: white!important;
+ }
